@@ -25,7 +25,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
-  margin-bottom: 20%;
+  margin-bottom: 10vh;
   z-index: 1;
   font-weight: bold;
   letter-spacing: 4px;
@@ -40,7 +40,8 @@ body {
 
 }
 .titulo {
-  margin-bottom: 590px;
+
+  margin-bottom: 50vh;
   font-family: "Arial Narrow", Arial, sans-serif;
   color: rgb(255, 255, 255);
   position: absolute;
