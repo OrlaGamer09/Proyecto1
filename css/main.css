@@ -21,7 +21,7 @@ body {
 }
 
 #lyrics {
-  font-size: 28px;
+  font-size: 22px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   position: absolute;
@@ -31,6 +31,7 @@ body {
   letter-spacing: 4px;
 }
 @media only screen and (max-width: 600px) {
+ 
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
       font-size: 18px; /* Reduce el tamaño del texto para dispositivos más pequeños */
@@ -50,7 +51,15 @@ body {
   opacity: 0;
   animation: fadeIn 3s ease-in-out forwards;
   text-align: center;
+  font-size: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  .titulo {
+    font-size: 22px; /* Tamaño de fuente reducido para dispositivos con ancho máximo de 600px */
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
